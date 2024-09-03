@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(mountain.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.before {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.before h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -200px
+}
+
+.settings {
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.settings .fa-gear {
+    font-size: 30px;
+}
+
+.setting-content {
+    display: flex;
+    gap: 10px;
+}
+
+.setting-content button {
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.setting-content input {
+    border-radius: 5px;
+}
+
+.after {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+.time-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.time-count div {
+    text-align: center;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+
